@@ -1,0 +1,8 @@
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
