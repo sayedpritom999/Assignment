@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #EC4C7A;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #202428;
+}
+
+p {
+    font: 16px;
+    font-weight: 300;
+    color: #8A8A8A;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+.header {
+    height: 3000px;
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    padding-top: 100px;
+}
+
+#hire-me-btn {
+    background-image: linear-gradient(45deg,#EC5197, #ED4B6F);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 12px 37px;
+}
