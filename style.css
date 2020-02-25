@@ -1,5 +1,6 @@
-html {
-    height: 100%;
+* {
+    padding: 0;
+    margin: 0;
 }
 body {
     margin: 0;
@@ -25,12 +26,15 @@ p {
 }
 
 .half-width {
-    width: 40%;
+    width: 35%;
     float: left;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .half-width img {
     width: 100%;
+}
+.half-width:nth-child(2) {
+    margin: 0;
 }
 .header {
     height: 3000px;
@@ -38,7 +42,7 @@ p {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 #hire-me-btn {
@@ -50,4 +54,11 @@ p {
     font-weight: 400;
     border-radius: 5px;
     padding: 12px 37px;
+}
+
+#my-name {
+    margin-bottom: 35px;
+}
+#about-me {
+    margin-bottom: 40px;
 }
