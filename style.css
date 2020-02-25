@@ -135,11 +135,13 @@ p {
     font-size: 12px;
     font-weight: 700;
     color: #202428;
+    margin-bottom: 5px;
 }
 .f-position {
     font-size: 10px;
     font-weight: 400;
     color: #676868;
+    margin-bottom: 30px;
 }
 .f-para {
     width: 30%;
@@ -147,25 +149,34 @@ p {
     font-size: 14px;
     font-weight: 500;
     color: #3d3d3d;
+    margin-bottom: 55px;
 }
 .f-box {
     width: 38%;
     margin: auto;
     background-image: linear-gradient(45deg,#EC5197, #ED4B6F);
     border-radius: 5px;
+    margin-bottom: 100px;
+    
 }
 .f-box p {
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 400;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 .f-box h2 {
     color: white;
     font-size: 18px;
     font-weight: 500;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+}
+.f-copy-right {
+    font-size: 11px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 /* Footer */
 
