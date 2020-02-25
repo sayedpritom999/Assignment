@@ -99,7 +99,6 @@ p {
 .biography:nth-child(2) p {
     margin-bottom: 50px;
 }
-
 /*Biography Section */
 
 /* Latest Work */
@@ -124,6 +123,49 @@ p {
     width: 30%;
     margin: 0 15px;
 }
-
-
 /* Latest Work */
+/* Footer */
+.footer {
+    text-align: center;
+}
+.footer h2 {
+    margin-bottom: 50px;
+}
+.f-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #202428;
+}
+.f-position {
+    font-size: 10px;
+    font-weight: 400;
+    color: #676868;
+}
+.f-para {
+    width: 30%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+.f-box {
+    width: 38%;
+    margin: auto;
+    background-image: linear-gradient(45deg,#EC5197, #ED4B6F);
+    border-radius: 5px;
+}
+.f-box p {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.f-box h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+/* Footer */
+
