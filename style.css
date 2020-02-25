@@ -127,6 +127,11 @@ p {
 /* Footer */
 .footer {
     text-align: center;
+    height: 500px;
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .footer h2 {
     margin-bottom: 50px;
