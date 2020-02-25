@@ -26,18 +26,29 @@ p {
 }
 
 .half-width {
-    width: 35%;
+    width: 40%;
     float: left;
-    margin-left: 15%;
+    margin-left: 7.5%;
 }
 .half-width img {
     width: 100%;
 }
-.half-width:nth-child(2) {
+
+/* Header Section */
+.half-width-1 {
+    width: 37%;
+    float: left;
+    margin-left: 12%;
+}
+.half-width-1 img {
+    width: 100%;
+}
+
+.half-width-1:nth-child(2) {
     margin: 0;
 }
 .header {
-    height: 3000px;
+    height: 623px;
     background-image: url(personal-website/header-bg.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -45,7 +56,7 @@ p {
     padding-top: 130px;
 }
 
-#hire-me-btn {
+.btn {
     background-image: linear-gradient(45deg,#EC5197, #ED4B6F);
     color: white;
     text-decoration: none;
@@ -62,3 +73,57 @@ p {
 #about-me {
     margin-bottom: 40px;
 }
+/* Header Section */
+
+/*Biography Section */
+.biography {
+    height: 873px;
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.biography:nth-child(2) img {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+
+.biography:nth-child(2) h2 {
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.biography:nth-child(2) p {
+    margin-bottom: 50px;
+}
+
+/*Biography Section */
+
+/* Latest Work */
+.latest-work {
+    height: 560px;
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+}
+.latest-work h2{
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+.latest-work div {
+    width: 85%;
+    margin: auto;
+}
+.latest-work div img {
+    float: ;
+    width: 30%;
+    margin: 0 15px;
+}
+
+
+/* Latest Work */
