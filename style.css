@@ -39,6 +39,7 @@ p {
     width: 37%;
     float: left;
     margin-left: 12%;
+    margin-top: 100px;
 }
 .half-width-1 img {
     width: 100%;
@@ -124,6 +125,59 @@ p {
     margin: 0 15px;
 }
 /* Latest Work */
+/*Why Choose Me */
+.half-width-3 {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.why-choose-me {
+    height: 800px;
+}
+#why-hire-me{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.why-choose-me-title {
+    background: -webkit-linear-gradient(45deg,#08F3C4, #3998F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.why-choose-me-para {
+    width: 93%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+#expertise {
+     background: -webkit-linear-gradient(45deg,#EC5197, #ED4B6F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.expertise-list {
+    margin-top: 30px;
+    list-style: none;
+    font-weight: 400;
+    color: gray;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.expertise-list li {
+    margin-top:  25px;
+    margin-left: 20px;
+
+}
+.expertise-list li::before {
+content: url(images/icon.png);
+position: relative;
+top: 8px;
+right: 20px;
+}
+/*Why Choose Me */
 /* Footer */
 .footer {
     text-align: center;
