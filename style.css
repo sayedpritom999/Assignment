@@ -132,6 +132,16 @@ p {
 .why-choose-me {
     height: 800px;
 }
+@media only screen and (max-width: 910px) {
+    .why-choose-me {
+        height: 900px;
+    }
+}
+@media only screen and (max-width: 684px) {
+    .why-choose-me {
+        height: 1300px;
+    }
+}
 #why-hire-me{
     font-size: 35px;
     text-align: center;
@@ -222,13 +232,13 @@ right: 20px;
     font-size: 10px;
     font-weight: 400;
     padding-top: 25px;
-    padding-bottom: 15px;
 }
 .f-box h2 {
     color: white;
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 40px;
+    word-wrap: break-word;
 }
 .f-copy-right {
     font-size: 11px;
